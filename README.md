@@ -19,6 +19,7 @@
     - [Usage](#usage)
     - [Run tests](#run-tests)
   - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
@@ -110,6 +111,14 @@ To run tests, run the following command:
 - GitHub: [@githubhandle](https://github.com/wineshuga)
 - Twitter: [@twitterhandle](https://twitter.com/wineshuga)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/wineshuga)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Full website setup**
+- [ ] **Fetch data from API**
+- [ ] **Computer components**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

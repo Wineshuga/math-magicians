@@ -118,7 +118,7 @@ To run tests, run the following command:
 
 - [ ] **Full website setup**
 - [ ] **Fetch data from API**
-- [ ] **Computer components**
+- [ ] **Functional components**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

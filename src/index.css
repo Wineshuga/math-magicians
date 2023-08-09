@@ -1,43 +1,43 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .calc {
-    width: fit-content;
-    background-color: #CDCDCD;
+  width: fit-content;
+  background-color: #cdcdcd;
 }
 
 .output {
-    background-color: #858694;
-    padding: 0.5rem;
-    text-align: right;
-    color: white;
+  background-color: #858694;
+  padding: 0.5rem;
+  text-align: right;
+  color: white;
 }
 
 .key {
-    padding: 0.8rem;
-    width: 4rem;
-    border: none;
-    cursor: pointer;
+  padding: 0.8rem;
+  width: 4rem;
+  border: none;
+  cursor: pointer;
 }
 
 .keys {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0.1rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.1rem;
 }
 
 .grey-key {
-    background-color: #E0E0E0;
+  background-color: #e0e0e0;
 }
 
 .orange-key {
-    background-color: #F5913E;
+  background-color: #f5913e;
 }
 
 .zero {
-    grid-column: span 2;
-    width: auto;
+  grid-column: span 2;
+  width: auto;
 }

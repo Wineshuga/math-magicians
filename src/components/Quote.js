@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import config from '../config.js';
+import config from '../config';
 
 const Quote = () => {
   const [data, setData] = useState([]);

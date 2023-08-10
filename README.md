@@ -88,7 +88,10 @@ Install this project with:
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project:
+- Go to `/src/components/Quotes.js`.
+- Replace API key with yours in a `.env` file.
+- Then, execute the following command:
 
 ```sh
    npm start

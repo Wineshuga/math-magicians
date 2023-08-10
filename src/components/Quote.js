@@ -1,6 +1,4 @@
 import { useEffect, useState } from 'react';
-/* eslint-disable import/extensions */
-import config from '../config.js';
 
 const Quote = () => {
   const [data, setData] = useState([]);
@@ -11,11 +9,11 @@ const Quote = () => {
     const fetchData = async () => {
       setLoading(true);
       try {
-        const quoteApi = await fetch('https://api.api-ninjas.com/v1/quotes?category=knowledge', {
+        const quoteApi = await fetch('https://api.api-ninjas.com/v1/quotes?category=intelligence', {
           method: 'GET',
           headers: {
             'Content-type': 'application/json',
-            'X-Api-Key': config.API_KEY,
+            'X-Api-Key': process.env.REACT_APP_QUOTE_API_KEY,
           },
         });
         const result = await quoteApi.json();
@@ -27,7 +25,7 @@ const Quote = () => {
       setLoading(false);
     };
     fetchData();
-  }, [setLoading]);
+  }, []);
 
   if (error) return <div className="quote-box">Something went wrong 😪</div>;
   if (loading) return <div className="quote-box">🥰Loading...</div>;

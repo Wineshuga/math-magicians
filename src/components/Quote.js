@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import config from '../config';
 
 const Quote = () => {
   const [data, setData] = useState([]);
@@ -13,7 +14,7 @@ const Quote = () => {
           method: 'GET',
           headers: {
             'Content-type': 'application/json',
-            'X-Api-Key': 'Oc9iLu1uWbwLmGKl+xaXUw==NN6caojgrA4VqIdM',
+            'X-Api-Key': config.API_KEY,
           },
         });
         const result = await quoteApi.json();

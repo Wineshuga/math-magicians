@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import config from '../config';
+/* eslint-disable import/extensions */
+import config from '../config.js';
 
 const Quote = () => {
   const [data, setData] = useState([]);

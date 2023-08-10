@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+main {
+  display: flex;
+}
+
+.quote-box {
+  width: 50%;
+}
+
 .calc {
   width: fit-content;
   background-color: #cdcdcd;

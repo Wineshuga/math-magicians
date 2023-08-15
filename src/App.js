@@ -8,9 +8,9 @@ const Layout = () => (
   <header>
     <h1>Math Magicians</h1>
     <ul>
-      <Link to="/">Home</Link>
-      <Link to="calculator">Calculator</Link>
-      <Link to="quote">Quote</Link>
+      <Link className='link link-border' to="/">Home</Link>
+      <Link className='link link-border' to="calculator">Calculator</Link>
+      <Link className='link' to="quote">Quote</Link>
     </ul>
   </header>
   <Outlet />

@@ -8,6 +8,18 @@ main {
   display: flex;
 }
 
-.quote-box {
-  width: 50%;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+header .link {
+  padding: 0 1rem;
+  color: #095394;
+}
+
+.link-border {
+  border-right: 0.15rem solid #095394;
 }

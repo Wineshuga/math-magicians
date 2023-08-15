@@ -11,29 +11,3 @@ main {
 .quote-box {
   width: 50%;
 }
-
-.key {
-  padding: 0.8rem;
-  width: 4rem;
-  border: none;
-  cursor: pointer;
-}
-
-.keys {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 0.1rem;
-}
-
-.grey-key {
-  background-color: #e0e0e0;
-}
-
-.orange-key {
-  background-color: #f5913e;
-}
-
-.zero {
-  grid-column: span 2;
-  width: auto;
-}

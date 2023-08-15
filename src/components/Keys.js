@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from '../styles/Keys.module.css';
 
 const Keys = ({ click }) => {
   const keys = [
@@ -7,12 +8,12 @@ const Keys = ({ click }) => {
   ];
 
   return (
-    <div className="keys">
+    <div className={styles.keys}>
       {keys.map((key) => (
         <button
           key={key}
           type="button"
-          className={`key ${key === '0' ? 'zero' : ''} ${['+', '-', '÷', 'x', '='].includes(key) ? 'orange-key' : 'grey-key'}`}
+          className={`${styles.key} ${key === '0' ? styles.zero : ''} ${['+', '-', '÷', 'x', '='].includes(key) ? styles['orange-key'] : styles['grey-key']}`}
           onClick={() => click(key)}
         >
           {key}

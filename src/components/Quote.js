@@ -34,7 +34,11 @@ const Quote = () => {
     <div className={styles['quote-box']}>
       <p>{data[0]}</p>
       {' '}
-      <span className={styles.author}> — {data[1]}</span>
+      <span className={styles.author}>
+        {' '}
+        —
+        {data[1]}
+      </span>
     </div>
   );
 };

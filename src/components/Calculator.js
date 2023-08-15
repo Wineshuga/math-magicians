@@ -17,19 +17,19 @@ const Calculator = () => {
 
   return (
     <div className={styles.calcPage}>
-    <h2>
-      Let's do some maths!
-    </h2>
-    <div className={styles.calc}>
-      <div className={styles.output}>
-        {showInput.total}
-        {' '}
-        {showInput.operation}
-        {' '}
-        {showInput.next}
+      <h2>
+        Let&apos;s do some maths!
+      </h2>
+      <div className={styles.calc}>
+        <div className={styles.output}>
+          {showInput.total}
+          {' '}
+          {showInput.operation}
+          {' '}
+          {showInput.next}
+        </div>
+        <Keys click={handleClick} />
       </div>
-      <Keys click={handleClick} />
-    </div>
     </div>
   );
 };

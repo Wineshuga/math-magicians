@@ -15,6 +15,10 @@ const Calculator = () => {
   };
 
   return (
+    <>
+    <div>
+      Let's do some maths!
+    </div>
     <div className="calc">
       <div className="output">
         {showInput.total}
@@ -25,6 +29,7 @@ const Calculator = () => {
       </div>
       <Keys click={handleClick} />
     </div>
+    </>
   );
 };
 

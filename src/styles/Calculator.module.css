@@ -1,17 +1,17 @@
-  .calcPage {
-    display: flex;
-    margin-top: 3rem;
-  }
+.calcPage {
+  display: flex;
+  margin-top: 3rem;
+}
 
-  .calcPage > h2 {
-    font-size: 32px;
-    padding: 1rem;
-    width: 50%;
-    text-align: center;
-    margin: auto;
-  }
-  
-  .calc {    
+.calcPage > h2 {
+  font-size: 32px;
+  padding: 1rem;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+.calc {
   width: 50%;
   background-color: #cdcdcd;
   border-radius: 8px;
@@ -20,13 +20,12 @@
   margin-right: 2rem;
 }
 
-  .output {
-    background-color: #858694;
-    padding: 0.5rem;
-    height: 3rem;
-    text-align: right;
-    color: white;
-    border-radius: 4px;
-    margin-bottom: 1rem;
-  }
-    
+.output {
+  background-color: #858694;
+  padding: 0.5rem;
+  height: 3rem;
+  text-align: right;
+  color: white;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}

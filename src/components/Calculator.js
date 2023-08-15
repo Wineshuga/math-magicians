@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Keys from './Keys';
 import calculate from '../logic/calculate';
+import styles from '../styles/Calculator.module.css';
 
 const Calculator = () => {
   const [showInput, setShowInput] = useState({
@@ -19,8 +20,8 @@ const Calculator = () => {
     <div>
       Let's do some maths!
     </div>
-    <div className="calc">
-      <div className="output">
+    <div className={styles.calc}>
+      <div className={styles.output}>
         {showInput.total}
         {' '}
         {showInput.operation}

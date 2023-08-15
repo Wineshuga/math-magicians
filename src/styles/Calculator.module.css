@@ -1,0 +1,13 @@
+.calc {
+    width: fit-content;
+    background-color: #cdcdcd;
+  }
+  
+  .output {
+    background-color: #858694;
+    padding: 0.5rem;
+    height: 2.5rem;
+    text-align: right;
+    color: white;
+  }
+    

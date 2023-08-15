@@ -1,6 +1,8 @@
+import styles from '../styles/HomePage.module.css';
+
 const HomePage = () => {
   return (
-    <div>
+    <div className={styles['home-page']}>
         <h2>Welcome to our page!</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam sint quisquam minima at eius natus cupiditate. Quam corporis qui, cumque dicta molestias iure dolores. Vero fuga officiis mollitia eaque aperiam.
         Est laudantium illum optio omnis quibusdam labore at sit dicta accusantium. Delectus veritatis eaque inventore esse cumque. Maiores corrupti labore veniam autem sequi tenetur quia quae. Nam voluptatem illum ipsam!

@@ -17,9 +17,9 @@ const Calculator = () => {
 
   return (
     <div className={styles.calcPage}>
-    <section>
+    <h2>
       Let's do some maths!
-    </section>
+    </h2>
     <div className={styles.calc}>
       <div className={styles.output}>
         {showInput.total}

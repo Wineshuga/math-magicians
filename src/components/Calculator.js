@@ -16,10 +16,10 @@ const Calculator = () => {
   };
 
   return (
-    <>
-    <div>
+    <div className={styles.calcPage}>
+    <section>
       Let's do some maths!
-    </div>
+    </section>
     <div className={styles.calc}>
       <div className={styles.output}>
         {showInput.total}
@@ -30,7 +30,7 @@ const Calculator = () => {
       </div>
       <Keys click={handleClick} />
     </div>
-    </>
+    </div>
   );
 };
 

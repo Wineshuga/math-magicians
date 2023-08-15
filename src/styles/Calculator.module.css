@@ -1,13 +1,32 @@
-.calc {
-    width: fit-content;
-    background-color: #cdcdcd;
+  .calcPage {
+    display: flex;
+    margin-top: 3rem;
+  }
+
+  .calcPage > section {
+    font-size: 32px;
+    padding: 1rem;
+    width: 50%;
+    text-align: center;
+    margin: auto;
   }
   
+  .calc {    
+  width: 50%;
+  background-color: #cdcdcd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-right: 2rem;
+}
+
   .output {
     background-color: #858694;
     padding: 0.5rem;
-    height: 2.5rem;
+    height: 3rem;
     text-align: right;
     color: white;
+    border-radius: 4px;
+    margin-bottom: 1rem;
   }
     

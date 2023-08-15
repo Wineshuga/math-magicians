@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import styles from '../styles/Quote.module.css';
 
 const Quote = () => {
   const [data, setData] = useState([]);
@@ -30,12 +31,10 @@ const Quote = () => {
   if (error) return <div className="quote-box">Something went wrong 😪</div>;
   if (loading) return <div className="quote-box">🥰Loading...</div>;
   return (
-    <div className="quote-box">
+    <div className={styles['quote-box']}>
       {data[0]}
       {' '}
-      —
-      {' '}
-      {data[1]}
+      <span className={styles.author}>— {data[1]}</span>
     </div>
   );
 };

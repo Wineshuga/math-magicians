@@ -32,9 +32,9 @@ const Quote = () => {
   if (loading) return <div className="quote-box">🥰Loading...</div>;
   return (
     <div className={styles['quote-box']}>
-      {data[0]}
+      <p>{data[0]}</p>
       {' '}
-      <span className={styles.author}>— {data[1]}</span>
+      <span className={styles.author}> — {data[1]}</span>
     </div>
   );
 };

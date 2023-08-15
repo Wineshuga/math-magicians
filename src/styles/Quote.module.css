@@ -9,10 +9,11 @@
     justify-content: center;
     font-size: 1.2rem;
     height: 50vh;
+    width: fit-content;
+    margin: 3rem auto;
   }
   
   .author {
     color: #808080;
-    margin-top: 0.5rem;
     font-style: italic;
   }
